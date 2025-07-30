@@ -29,7 +29,7 @@ file_list = {
 
 plot_deep_brain_structures(file_list, 'l', 1); hold on;
 
-load('EC137_electrode.mat');
+load('electrode.mat');
 scatter3(elecmatrix(:,1),elecmatrix(:,2),elecmatrix(:,3),50, 'filled','MarkerFaceAlpha',1,'MarkerFaceColor',[1 1 0]);
 
 % plot_deep_brain_structures(file_list, 'r', 1);
