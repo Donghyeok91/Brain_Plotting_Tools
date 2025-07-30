@@ -9,7 +9,7 @@ MATLAB scripts for visualizing deep brain structures and electrodes in MNI152 sp
 
 * **Comprehensive Brain Structures:** Includes visualization of major cortical surfaces (pial) and subcortical structures (e.g., Amygdala, Hippocampus, Thalamus, Basal Ganglia, Ventricles, Brainstem).
 * **Customizable Views:** Easily switch between left and right hemisphere views.
-* **Electrode Visualization:** Supports overlaying custom electrode coordinates (e.g., from `EC137_electrode.mat`) onto the brain models.
+* **Electrode Visualization:** Supports overlaying custom electrode coordinates (e.g., from `electrode.mat`) onto the brain models.
 * **Intuitive Coloring:** Predefined color schemes for different brain regions for better anatomical identification.
 * **Lighting and Transparency:** Configurable lighting and transparency settings for enhanced 3D perception.
 
@@ -79,7 +79,7 @@ The `data/brain_structures/` folder contains `.mat` files for various brain regi
 * `lThal_subcort.mat`, `rThal_subcort.mat`: Left/Right Thalamus.
 * `lBrainStem_subcort.mat`: Brainstem (shared for both hemispheres).
 * **Ventricles:** `lFourthVent_subcort.mat`, `lInfLatVent_subcort.mat`, `lLatVent_subcort.mat`, `lThirdVent_subcort.mat`, `lVentDienceph_subcort.mat` and their right counterparts where applicable.
-* `EC137_electrode.mat`: Example electrode coordinates file.
+* `electrode.mat`: Example electrode coordinates file.
 
 ## Contributing
 
