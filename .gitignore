@@ -1,0 +1,53 @@
+# MATLAB
+# Compiled files
+*.mex*
+*.obj
+*.dll
+*.so
+*.dylib
+
+# Simulink files
+*.slx.r*
+*.mdl.r*
+*.slxp
+*.mdlp
+*.sldd
+*.slxc
+*.slxp.r*
+*.mdlp.r*
+
+# Temporary files and build artifacts
+*.asv
+*.bak
+*.log
+*.tmp
+*.diag
+*.cpt
+*.cpt.r*
+*.out
+*.prj
+*.matlab
+*.fig
+*.m.r*
+*.mlx.r*
+
+# Live Script generated output
+*.pdf
+*.docx
+*.html
+*.tex
+
+# MATLAB Preferences
+.matlab/
+.Temp/
+
+# Simulation output directories
+slprj/
+html/
+resources/
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
